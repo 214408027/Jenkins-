@@ -18,3 +18,10 @@ class Test_allure:
         print('呵呵哒')
 
         assert 0
+        
+    def test_out(self):
+
+    allure.attach('退出', '呵呵哒')
+    print('无敌了')
+
+    assert 1
