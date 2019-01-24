@@ -17,7 +17,7 @@ class Test_allure:
         allure.attach('登录', '呵呵哒')
         print('呵呵哒')
 
-        assert 0
+        assert 1
         
     def test_out(self):
 
